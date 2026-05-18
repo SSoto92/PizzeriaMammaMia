@@ -17,6 +17,7 @@ function App() {
       {view === 'login' && <Login />}
       {view === 'register' && <Register />}
       {view === 'cart' && <Cart />}
+      {view === 'pizza' && <Pizza onBack={() => setView('home')} />}
 
       <Footer />
     </>

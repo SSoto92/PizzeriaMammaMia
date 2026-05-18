@@ -62,7 +62,13 @@ const Navbar = ({ setView, view }) => {
               </button>
             </>
           )}
-
+          <button
+            type="button"
+            className={getButtonClass('pizza')}
+            onClick={() => setView('pizza')}
+          >
+            🍕 Pizza
+          </button>
           <button
             type="button"
             className={getButtonClass('cart')}

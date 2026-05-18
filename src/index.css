@@ -128,3 +128,17 @@ footer {
     min-width: auto;
   }
 }
+.pizza-detail-page {
+  min-height: calc(100vh - 150px);
+}
+
+.pizza-detail-card {
+  max-width: 1100px;
+  margin: 0 auto;
+  border-radius: 18px;
+}
+
+.pizza-detail-img {
+  min-height: 360px;
+  object-fit: cover;
+}
